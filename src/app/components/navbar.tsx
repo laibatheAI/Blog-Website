@@ -10,7 +10,7 @@ export default function Navbar() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <div className="fixed bg-blue-500 flex lg:justify-around justify-between items-center w-[320px] lg:w-full h-14 px-4 z-10">
+    <div className="fixed bg-blue-500 flex lg:justify-around justify-between items-center w-full h-14 px-4 z-10">
       {/* Heading */}
       <div>
         <h1
