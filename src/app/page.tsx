@@ -3,9 +3,9 @@ import Link from "next/link";
 import Footer from "./components/footer";
 export default function FrontPage() {
   return (
-    <div className="w-full h-auto lg:h-auto lg:w-full bg-[url('/background2.jpg')] bg-no-repeat bg-cover bg-center pt-11">
+    <div className="w-full h-auto bg-[url('/background2.jpg')] bg-no-repeat bg-cover bg-center pt-11">
       {/* website Name */}
-      <div>
+      <div className = "w-full">
         <h1
           className="grid justify-center items-center font-bold text-5xl lg:text-6xl text-outline py-7"
           style={{ textShadow: "3px 3px 3px black"}}
