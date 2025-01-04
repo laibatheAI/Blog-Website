@@ -3,7 +3,7 @@ import Link from "next/link";
 import Footer from "./components/footer";
 export default function FrontPage() {
   return (
-    <div className="w-[320px] h-auto lg:h-auto lg:w-full bg-[url('/background2.jpg')] bg-no-repeat bg-cover bg-center pt-11">
+    <div className="w-full h-auto lg:h-auto lg:w-full bg-[url('/background2.jpg')] bg-no-repeat bg-cover bg-center pt-11">
       {/* website Name */}
       <div>
         <h1
