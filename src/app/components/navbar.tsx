@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <div className="fixed bg-blue-500 flex lg:justify-around justify-between items-center w-full h-14 px-4 z-10">
       {/* Heading */}
-      <div>
+      <div className="w-full">
         <h1
           className="text-white font-bold text-3xl"
           style={{ textShadow: "3px 3px 3px black" }}
